@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>GConnect</title>
+        <meta
+            name="description"
+            content="Официальная информация о компании — сертифицированном партнёре Google. Узнайте о наших услугах, преимуществах партнёрства и стандартах качества, подтверждённых Google."
+        />
+        <meta
+            name="keywords"
+            content="Google партнёр, сертифицированный партнёр Google, официальный партнёр Google, цифровой маркетинг, реклама Google, партнёрская программа Google, сертификация Google"
+        />
+
+        <!-- Favicons -->
+        <link href="assets/img/favicon.png" rel="icon" />
+        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Vendor CSS Files -->
+        <link
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link
+            href="assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/swiper/swiper-bundle.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Main CSS File -->
+        <link href="assets/css/main.css" rel="stylesheet" />
+
+        <!-- Google Font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <style>
+            body {
+                font-family: "Roboto", sans-serif;
+            }
+
+            #account-check {
+                padding: 60px 0;
+                background-color: #f9f9f9;
+            }
+
+            .section-title h2 {
+                font-size: 28px;
+                font-weight: 700;
+                color: #202124;
+            }
+
+            .section-title p {
+                font-size: 16px;
+                color: #5f6368;
+            }
+
+            .section-title small {
+                display: block;
+                margin-top: 10px;
+                color: #80868b;
+                font-size: 13px;
+            }
+
+            input.form-control,
+            .form-check-input {
+                border-radius: 8px;
+                border: 1px solid #dadce0;
+                padding: 12px 16px;
+                box-shadow: none;
+                transition: border-color 0.3s;
+            }
+
+            input.form-control:focus {
+                border-color: #1a73e8;
+                outline: none;
+                box-shadow: 0 0 0 1px #1a73e8;
+            }
+
+            .btn {
+                background-color: #1a73e8;
+                color: #fff;
+                border: none;
+                padding: 12px 20px;
+                font-weight: 500;
+                border-radius: 8px;
+                transition: background-color 0.3s ease;
+            }
+
+            .btn:hover {
+                background-color: #1558c0;
+                color: #fff;
+            }
+
+            .spinner-border {
+                width: 3rem;
+                height: 3rem;
+            }
+
+            #results-list li {
+                background-color: #fff;
+                border-radius: 6px;
+                margin-bottom: 10px;
+                padding: 12px 16px;
+                box-shadow: 0 1px 3px rgba(60, 64, 67, 0.15);
+                font-weight: 500;
+                color: #202124;
+                opacity: 0;
+            }
+
+            .form-check-label {
+                font-size: 14px;
+                color: #5f6368;
+            }
+
+            @media (max-width: 576px) {
+                .btn {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+
+    <body class="index-page">
+        <header id="header" class="header d-flex align-items-center fixed-top">
+            <div
+                class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-center"
+            >
+                <a
+                    href="index.html"
+                    class="logo d-flex align-items-center me-auto me-xl-0"
+                >
+                    <!-- Uncomment the line below if you also wish to use an image logo -->
+                    <!-- <img src="assets/img/logo.png" alt=""> -->
+                    <h1 class="sitename">
+                        <img src="assets/img/logo.png" />GConnect
+                    </h1>
+                </a>
+            </div>
+        </header>
+
+        <main class="main">
+            <!-- Hero Section -->
+            <section id="hero" class="hero section">
+                <div class="container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div
+                                class="hero-content"
+                                data-aos="fade-up"
+                                data-aos-delay="200"
+                            >
+                                <!-- <div class="company-badge mb-4">
+                                    <i class="bi bi-gear-fill me-2"></i>
+                                    Focused on Consulting Excellence
+                                </div> -->
+
+                                <h1 class="mb-4">
+                                    Проверьте свой<br />
+                                    Google-аккаунт — и начните получать доход до
+                                    120€/день<br />
+                                    <span class="accent-text"
+                                        >Tailored for You</span
+                                    >
+                                </h1>
+
+                                <p class="mb-4 mb-md-5">
+                                    Google AI тестирует новую программу для
+                                    пользователей из ЕС. Доступ ограничен.
+                                    Узнайте, можете ли вы начать уже сегодня.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                    <div
+                        class="row stats-row gy-4 mt-5"
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                    >
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stat-item">
+                                <div class="stat-icon">
+                                    <i class="bi bi-trophy"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h4>5x Awards</h4>
+                                    <p class="mb-0">For excellence</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stat-item">
+                                <div class="stat-icon">
+                                    <i class="bi bi-briefcase"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h4>7k+ Businesses</h4>
+                                    <p class="mb-0">Consulted globally</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stat-item">
+                                <div class="stat-icon">
+                                    <i class="bi bi-graph-up"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h4>90% Success</h4>
+                                    <p class="mb-0">In project outcomes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stat-item">
+                                <div class="stat-icon">
+                                    <i class="bi bi-award"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h4>10+ Certifications</h4>
+                                    <p class="mb-0">Qualified experts</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+            <!-- /Hero Section -->
+
+            <!-- About Section -->
+            <section id="about" class="about section">
+                <div class="container" data-aos="fade-up" data-aos-delay="100">
+                    <div
+                        class="row gy-4 align-items-center justify-content-between"
+                    >
+                        <div
+                            class="col-xl-5"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                        >
+                            <span class="about-meta">О программе</span>
+                            <h2 class="about-title">
+                                Личные аккаунты с доходом: тестовая программа
+                                Google
+                            </h2>
+                            <p class="about-description">
+                                В 2025 году Google запустил тестовую программу
+                                по монетизации личных аккаунтов. Участники могут
+                                получать компенсацию за активацию партнёрских
+                                функций. Это не реклама. Это — доступ к части
+                                рекламного дохода Google.
+                            </p>
+
+                            <div class="row feature-list-wrapper">
+                                <div class="col-md-6">
+                                    <ul class="feature-list">
+                                        <li>
+                                            <i
+                                                class="bi bi-check-circle-fill"
+                                            ></i>
+                                            Простое подключение через
+                                            Google-аккаунт
+                                        </li>
+                                        <li>
+                                            <i
+                                                class="bi bi-check-circle-fill"
+                                            ></i>
+                                            Ежедневные выплаты
+                                        </li>
+                                        <li>
+                                            <i
+                                                class="bi bi-check-circle-fill"
+                                            ></i>
+                                            Минимальные вложения
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-xl-6"
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                        >
+                            <div class="image-wrapper">
+                                <div
+                                    class="images position-relative"
+                                    data-aos="zoom-out"
+                                    data-aos-delay="400"
+                                >
+                                    <img
+                                        src="assets/img/about-5.webp"
+                                        alt="Business Meeting"
+                                        class="img-fluid main-image rounded-4"
+                                    />
+                                    <img
+                                        src="assets/img/about-2.webp"
+                                        alt="Team Discussion"
+                                        class="img-fluid small-image rounded-4"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /About Section -->
+
+            <!-- Features Section -->
+            <!-- <section id="features" class="features section">
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Features</h2>
+                    <p>
+                        Discover key solutions tailored for effective Financial
+                        Planning and consulting services.
+                    </p>
+                </div>
+
+                <div class="container">
+                    <div class="d-flex justify-content-center">
+                        <ul
+                            class="nav nav-tabs"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active show"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#features-tab-1"
+                                >
+                                    <h4>Client-Focused Approach</h4>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#features-tab-2"
+                                >
+                                    <h4>Innovative Strategies</h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#features-tab-3"
+                                >
+                                    <h4>Comprehensive Solutions</h4>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="tab-content"
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                    >
+                        <div
+                            class="tab-pane fade active show"
+                            id="features-tab-1"
+                        >
+                            <div class="row">
+                                <div
+                                    class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                                >
+                                    <h3>Understanding Client Needs</h3>
+                                    <p class="fst-italic">
+                                        Our consulting services prioritize your
+                                        unique goals and challenges to develop
+                                        actionable plans.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i class="bi bi-check2-all"></i>
+                                            <span>
+                                                Personalized guidance tailored
+                                                for effective Financial
+                                                Planning.
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-all"></i>
+                                            <span>
+                                                Proactive approaches that adapt
+                                                to market changes.
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-all"></i>
+                                            <span>
+                                                Holistic solutions designed to
+                                                optimize business operations.
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div
+                                    class="col-lg-6 order-1 order-lg-2 text-center"
+                                >
+                                    <img
+                                        src="assets/img/features-illustration-1.webp"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="features-tab-2">
+                            <div class="row">
+                                <div
+                                    class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                                >
+                                    <h3>Leveraging Innovation</h3>
+                                    <p class="fst-italic">
+                                        Stay ahead of the competition with
+                                        cutting-edge strategies designed for
+                                        Financial Planning.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <i class="bi bi-check2-all"></i>
+                                            <span>
+                                                In-depth market analysis to
+                                                enhance decision-making.
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-all"></i>
+                                            <span>
+                                                Practical frameworks to drive
+                                                sustainable growth.
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-all"></i>
+                                            <span>
+                                                Expertise in navigating complex
+                                                business scenarios.
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div
+                                    class="col-lg-6 order-1 order-lg-2 text-center"
+                                >
+                                    <img
+                                        src="assets/img/features-illustration-2.webp"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="features-tab-3">
+                            <div class="row">
+                                <div
+                                    class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                                >
+                                    <h3>Comprehensive Support</h3>
+                                    <ul>
+                                        <li>
+                                            <i class="bi bi-check2-all"></i>
+                                            <span>
+                                                Integrated solutions for
+                                                Financial Planning and business
+                                                advisory.
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-all"></i>
+                                            <span>
+                                                Assistance in achieving both
+                                                short-term and long-term
+                                                objectives.
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-all"></i>
+                                            <span>
+                                                Ongoing support to refine
+                                                strategies over time.
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <p class="fst-italic">
+                                        We ensure your business benefits from
+                                        tailored consulting and robust Financial
+                                        Planning.
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-lg-6 order-1 order-lg-2 text-center"
+                                >
+                                    <img
+                                        src="assets/img/features-illustration-3.webp"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!-- /Features Section -->
+
+            <!-- Features Cards Section -->
+            <section id="features-cards" class="features-cards section">
+                <div class="container">
+                    <div class="row gy-4">
+                        <!-- Блок 1 -->
+                        <div
+                            class="col-xl-3 col-md-6"
+                            data-aos="zoom-in"
+                            data-aos-delay="100"
+                        >
+                            <div class="feature-box orange">
+                                <i class="bi bi-check-circle"></i>
+                                <h4>Проверка аккаунта</h4>
+                                <p>
+                                    Убедитесь, что ваш личный аккаунт
+                                    соответствует условиям участия в партнёрской
+                                    программе Google. Проверка выполняется
+                                    автоматически и занимает не более одной
+                                    минуты.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Feature Box -->
+
+                        <!-- Блок 2 -->
+                        <div
+                            class="col-xl-3 col-md-6"
+                            data-aos="zoom-in"
+                            data-aos-delay="200"
+                        >
+                            <div class="feature-box blue">
+                                <i class="bi bi-toggle-on"></i>
+                                <h4>Активация функций</h4>
+                                <p>
+                                    После подтверждения доступности вы можете
+                                    активировать партнёрские функции, что
+                                    позволит получать часть дохода Google от
+                                    показа рекламы.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Feature Box -->
+
+                        <!-- Блок 3 -->
+                        <div
+                            class="col-xl-3 col-md-6"
+                            data-aos="zoom-in"
+                            data-aos-delay="300"
+                        >
+                            <div class="feature-box green">
+                                <i class="bi bi-currency-dollar"></i>
+                                <h4>Ежедневный доход</h4>
+                                <p>
+                                    После активации функций вы начинаете
+                                    получать стабильные ежедневные начисления,
+                                    соответствующие рекламной активности в вашем
+                                    аккаунте.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Feature Box -->
+
+                        <!-- Блок 4 -->
+                        <div
+                            class="col-xl-3 col-md-6"
+                            data-aos="zoom-in"
+                            data-aos-delay="400"
+                        >
+                            <div class="feature-box red">
+                                <i class="bi bi-lock"></i>
+                                <h4>Безопасность процесса</h4>
+                                <p>
+                                    Все операции происходят в рамках официальной
+                                    платформы Google с соблюдением стандартов
+                                    безопасности и конфиденциальности.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Feature Box -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- /Features Cards Section -->
+
+            <!-- Call To Action 2 Section -->
+            <section
+                id="call-to-action-2"
+                class="call-to-action-2 section dark-background"
+            >
+                <div class="container">
+                    <div
+                        class="row justify-content-center"
+                        data-aos="zoom-in"
+                        data-aos-delay="100"
+                    >
+                        <div class="col-xl-10">
+                            <div class="text-center">
+                                <h3>
+                                    Свяжитесь с нами для участия в программе
+                                </h3>
+                                <p>
+                                    Наша команда готова предоставить всю
+                                    необходимую информацию о партнёрской
+                                    программе Google, условиях участия и
+                                    процессе подключения. Свяжитесь с нами,
+                                    чтобы получить доступ к функциям и начать
+                                    использовать возможности официального
+                                    партнёрства.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Call To Action 2 Section -->
+
+            <!-- Проверка аккаунта — Google Partner -->
+            <!-- Проверка аккаунта — Google Partner -->
+            <section id="account-check" class="section light-background">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title text-center">
+                        <h2>Доступна ли вам программа дохода от Google AI?</h2>
+                        <p>
+                            Заполните короткую форму и получите результат за 30
+                            секунд.
+                        </p>
+                        <small
+                            >Ваш аккаунт будет проверен на соответствие условиям
+                            программы</small
+                        >
+                    </div>
+
+                    <!-- Шаг 1: Проверка email -->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <form
+                                id="email-check-form"
+                                onsubmit="startCheck(event)"
+                            >
+                                <input
+                                    type="email"
+                                    id="checkEmail"
+                                    class="form-control mb-3"
+                                    placeholder="Введите ваш Google email для проверки"
+                                    required
+                                    pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$"
+                                />
+                                <button type="submit" class="btn w-100">
+                                    Проверить аккаунт
+                                </button>
+                            </form>
+
+                            <div
+                                id="checking-status"
+                                style="
+                                    display: none;
+                                    text-align: center;
+                                    margin-top: 20px;
+                                "
+                            >
+                                <div
+                                    class="spinner-border text-primary"
+                                    role="status"
+                                >
+                                    <span class="visually-hidden"
+                                        >Загрузка...</span
+                                    >
+                                </div>
+                                <p>Идёт проверка аккаунта...</p>
+                            </div>
+
+                            <div
+                                id="check-results"
+                                style="display: none; margin-top: 20px"
+                            >
+                                <ul
+                                    id="results-list"
+                                    style="list-style: none; padding: 0"
+                                ></ul>
+                            </div>
+
+                            <!-- Шаг 2: Форма подключения -->
+                            <form
+                                id="activation-form"
+                                style="display: none; margin-top: 30px"
+                                onsubmit="return submitActivationForm(event)"
+                            >
+                                <div class="mb-3">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name="firstName"
+                                        placeholder="Имя"
+                                        required
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name="lastName"
+                                        placeholder="Фамилия"
+                                        required
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        name="email"
+                                        placeholder="Email"
+                                        required
+                                        pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$"
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <input
+                                        type="tel"
+                                        class="form-control"
+                                        name="phone"
+                                        placeholder="Телефон"
+                                    />
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        id="consent"
+                                        required
+                                    />
+                                    <label
+                                        class="form-check-label"
+                                        for="consent"
+                                    >
+                                        Я даю согласие на обработку персональных
+                                        данных
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn w-100">
+                                    Подключиться к программе
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer" class="footer">
+            <div
+                class="container footer-top"
+                style="
+                    text-align: center;
+                    justify-content: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                "
+            >
+                <div class="footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename"
+                            ><img src="assets/img/logo.png" />GConnect</span
+                        >
+                    </a>
+                </div>
+
+                <div class="footer-links">
+                    <ul style="display: flex; column-gap: 10px">
+                        <li style="padding-bottom: 0px">
+                            <a href="terms-of-use.html"
+                                >Условия использования</a
+                            >
+                        </li>
+                        <li>
+                            <a href="privacy-policy.html"
+                                >Политика конфиденциальности</a
+                            >
+                        </li>
+                        <li>
+                            <a href="privacy-policy.html">Политика Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование файлов cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Данный сайт использует файлы cookie для обеспечения лучшего
+                    и более релевантного пользовательского опыта.
+                    <a href="cookie-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Scroll Top -->
+        <a
+            href="#"
+            id="scroll-top"
+            class="scroll-top d-flex align-items-center justify-content-center"
+            ><i class="bi bi-arrow-up-short"></i
+        ></a>
+
+        <script>
+            function startCheck(event) {
+                event.preventDefault();
+
+                const email = document.getElementById("checkEmail").value;
+                if (!email.endsWith("@gmail.com")) {
+                    alert(
+                        "Пожалуйста, используйте email, заканчивающийся на @gmail.com."
+                    );
+                    return;
+                }
+
+                document.getElementById("email-check-form").style.display =
+                    "none";
+                document.getElementById("checking-status").style.display =
+                    "block";
+
+                setTimeout(() => {
+                    document.getElementById("checking-status").style.display =
+                        "none";
+                    document.getElementById("check-results").style.display =
+                        "block";
+
+                    const results = [
+                        "✅ Аккаунт активен",
+                        "✅ Программа Google AI доступна",
+                        "✅ Ваша страна поддерживается",
+                        "✅ Вы соответствуете условиям участия",
+                    ];
+
+                    let delay = 0;
+                    const resultsList = document.getElementById("results-list");
+                    resultsList.innerHTML = "";
+
+                    results.forEach((text, index) => {
+                        setTimeout(() => {
+                            const li = document.createElement("li");
+                            li.textContent = text;
+                            li.style.opacity = "0";
+                            resultsList.appendChild(li);
+                            setTimeout(() => {
+                                li.style.transition = "opacity 0.5s";
+                                li.style.opacity = "1";
+                            }, 50);
+                        }, delay);
+                        delay += 2000;
+                    });
+
+                    setTimeout(() => {
+                        document.getElementById(
+                            "activation-form"
+                        ).style.display = "block";
+                    }, delay + 500);
+                }, 5000);
+            }
+
+            function submitActivationForm(event) {
+                event.preventDefault();
+
+                const consent = document.getElementById("consent");
+                if (!consent.checked) {
+                    alert(
+                        "Пожалуйста, подтвердите согласие на обработку данных."
+                    );
+                    return false;
+                }
+
+                // редирект через 1 сек
+                setTimeout(() => {
+                    window.location.href = "thanks.html";
+                }, 1000);
+
+                return true;
+            }
+        </script>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+        <!-- Main JS File -->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/cookiebanner.js"></script>
+    </body>
+</html>
